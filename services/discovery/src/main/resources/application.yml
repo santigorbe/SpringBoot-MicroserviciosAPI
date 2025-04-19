@@ -1,0 +1,7 @@
+spring:
+  config:
+    # Busca la config en el config-server project el cual corre en el 8888
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: discovery-service
+    #Es importante ponerle el nombre que va a llevar el archivo en el configurations de config-server
