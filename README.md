@@ -40,7 +40,7 @@
 📁 /notification  
 📁 /order  
 📁 /payment  
-📁 /product
+📁 /product  
 📄 docker-compose.yml  
 
 
